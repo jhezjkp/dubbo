@@ -39,5 +39,10 @@
 			<artifactId>jedis</artifactId>
 			<scope>provided</scope>
 		</dependency>
+        <dependency>
+            <groupId>commons-pool</groupId>
+            <artifactId>commons-pool</artifactId>
+            <version>${commons_pool_version}</version>
+        </dependency>
 	</dependencies>
 </project>
